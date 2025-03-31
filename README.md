@@ -1,15 +1,20 @@
 Quantized Mesh Decoder
 ===========================================
 
-JavaScript decoder for the [Quantized Mesh format](https://github.com/CesiumGS/quantized-mesh).
+> Fork from [Here](https://github.com/heremaps/quantized-mesh-decoder)
 
-Note: This is experimental code, expect changes. 
+## Enhanced Capabilities
+
+- Improved type definitions (TypeScript support)
+- Comprehensive test cases ensuring decoding accuracy
+
+JavaScript decoder for the [Quantized Mesh format](https://github.com/CesiumGS/quantized-mesh).
 
 ## Installation
 
 ### In Node.js
 
-The module is installable via yarn (or npm):
+The module is installable via pnpm:
 
 ```sh
 pnpm install @deepgis/quantized-mesh-decoder
