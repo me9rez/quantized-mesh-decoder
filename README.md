@@ -1,7 +1,11 @@
 Quantized Mesh Decoder
+
 ===========================================
 
-> Fork from [Here](https://github.com/heremaps/quantized-mesh-decoder)
+[![npm version](https://img.shields.io/npm/v/@deepgis/quantized-mesh-decoder?color=red)](https://npmjs.com/package/@deepgis/quantized-mesh-decoder)
+[![npm downloads](https://img.shields.io/npm/dm/@deepgis/quantized-mesh-decoder?color=yellow)](https://npm.chart.dev/@deepgis/quantized-mesh-decoder)
+
+> Fork from [Here Quantized Mesh Decoder](https://github.com/heremaps/quantized-mesh-decoder)
 
 ## Enhanced Capabilities
 
@@ -9,6 +13,7 @@ Quantized Mesh Decoder
 - Comprehensive test cases ensuring decoding accuracy
 
 JavaScript decoder for the [Quantized Mesh format](https://github.com/CesiumGS/quantized-mesh).
+
 
 ## Installation
 
