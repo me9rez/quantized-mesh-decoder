@@ -1,6 +1,6 @@
 Quantized Mesh Decoder
 
-===========================================
+---
 
 [![npm version](https://img.shields.io/npm/v/@deepgis/quantized-mesh-decoder?color=red)](https://npmjs.com/package/@deepgis/quantized-mesh-decoder)
 [![npm downloads](https://img.shields.io/npm/dm/@deepgis/quantized-mesh-decoder?color=yellow)](https://npm.chart.dev/@deepgis/quantized-mesh-decoder)
