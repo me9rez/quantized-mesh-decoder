@@ -1,6 +1,6 @@
 {
   "name": "@deepgis/quantized-mesh-decoder",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Decoder for the Quantized Mesh 1.0 format",
   "keywords": [
     "Terrain",
@@ -18,7 +18,9 @@
     "name": "me9rez",
     "url": "https://github.com/me9rez"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "exports": {
     ".": {
