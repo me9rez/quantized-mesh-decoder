@@ -1,0 +1,46 @@
+{
+  "name": "@deepgis/quantized-mesh-decoder",
+  "version": "0.0.0",
+  "description": "Decoder for the Quantized Mesh 1.0 format",
+  "keywords": [
+    "Terrain",
+    "Quantized Mesh",
+    "Decoder",
+    "Cesium"
+  ],
+  "bugs": "https://github.com/me9rez/quantized-mesh-decoder/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/me9rez/quantized-mesh-decoder"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "me9rez",
+    "url": "https://github.com/me9rez"
+  },
+  "files": ["dist"],
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "test": "tsx --test",
+    "build": "bunchee",
+    "release": "release-it",
+    "prepublishOnly": "pnpm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "bunchee": "^6.5.0",
+    "release-it": "^18.1.2",
+    "tsx": "^4.19.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
